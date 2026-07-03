@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brambaifa's Bio Page</title>
+</head>
+<body>
+<h1>Hi everyone, my name is Brambaifa:)</h1>
+  <p>
+    <p><mark><b><em>Some things that I love to do is bake different types of desserts and play Horror Video Games!</em></b></mark></p>
+<h2>My hobby is playing any games that deal with adventure, an intense story, or horror aspects.</h2>
+  <p>Some of the things i love to collect:</p>
+  <ul>
+    <li> The Last of Us merch.</li>
+      <li> Funko Pops of my Favorite Characters.</li>
+        <li> Vinyls and any Physical Media related to Music!</li>
+        </ul>
+   <h2>Image of my favorite 2 characters in my favorite video game!</h2>
+   <img src="https://res.cloudinary.com/cook-becker/image/fetch/q_auto:good,f_auto,w_1920/https://candb.com/site/candb/images/artwork/ellie-joel-last-of-us-naughty-dog.jpg" alt="this shows the main characters of my favorite game" width="240">
+  <p>Here, I put some links to some fan clubs and communities:</p>
+  <p>
+  <a href="https://www.playstation.com/en-us/the-last-of-us/community/">Playstation Tlou Community</a>
+  <a href="https://tloufans.tumblr.com/">Tlou Tumblr Fan Account</a>
+</p>
+</body>
+</html>
