@@ -1,7 +1,7 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #242d20;
-    color: #ffffff;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: #fee7f5;
+    color: #aeaeae;
     margin: 0;
     padding: 40px 20px;
     line-height: 1.6;
@@ -10,21 +10,100 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+body {
+    background-image: url(https://i.pinimg.com/vwebpf/1200x/9d/e6/32/9de63250798d3df1daa3e8959d495f62.webp);
+    background-repeat: repeat;
+    background-size: auto;
+}
+.parent-container {
+  display: flex;
+  flex-direction: column; /* Forces children to stack vertically */
+}
+@font-face {
+    font-family: 'anglePeace';
+    src: url('fonts/angelic-peace.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'careAround';
+    src: url('fonts/Care_Around_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 h1 {
-    color: #ffffff;
+    font-family:'careAround', 'Arial Narrow', Arial, sans-serif;
+    color: #55413d;
     font-size: 2.5rem;
     margin-top: 23px;
     border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;
+
 }
+
+p.headless {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+p.headring {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 23px;
+    border-top: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+p.heado{
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 23px;
+    border-top: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+p.headfo{
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 23px;
+    border-top: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+
 h2 {
-    color: #ffffff;
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    color: #5e453f;
     font-size: 1.4rem;
     margin-top: 23px;
     border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;
 }
-p, li {
+p.link-start {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 23px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+p.actual-links {
+   text-align: center;
+}
+p.actual-links a {
+    margin: 0 15px;
+}
+footer {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    text-align: center;
+}
+p.heading {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+li {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
@@ -36,7 +115,8 @@ IMG {
     margin: 15px 0;
 }
 a {
-    color: #ffffff;
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    color: #e89fbb;
     text-decoration: none;
     font-weight: bold;
     padding: 2px 6px;
@@ -44,16 +124,35 @@ a {
     transition: all 0.3s ease;
 }
 a:hover, a:focus {
-    color: #242d20;
+    color: #ffe8f6;
     background-color: #ffffff;
     text-decoration: none;
     outline: 2px solid #ffffff;
 }
 .bio-card {
-    background-color: #3a4a2f;
+    background-color: #ffe8f6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     width: 100%;
+}
+.parent-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer {
+    font-family:'times new roman', 'Arial Narrow', Arial, sans-serif;
+    color:#55413d;
+    background-color: #ffc5d1;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border-top: 1px solid #ffffff;
+    padding-top: 5px;
+    text-align: center;
 }
